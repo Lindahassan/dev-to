@@ -1,0 +1,49 @@
+.leftcont {
+  width: 20%;
+  border-color: rgb(20, 19, 19);
+  border-radius: 5px;
+  border-width: 3px;
+  background-color: rgb(248, 246, 250);
+  margin-top: 15px;
+  margin-left: 15px;
+ 
+}
+.c-cont {
+  display: flex;
+  justify-content: center;
+  align-items: row;
+  color: black;
+  width: 100%;
+  border-color: black;
+}
+.list {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  align-items: center;
+}
+.c-cont1 {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  margin-top: 10px;
+  gap: 20px;
+}
+.antbtn1 {
+  background-image: rgb(248, 247, 252);
+   width: 230px;
+   margin: 10px 10px;
+}
+
+.antbtn {
+  border-color: aliceblue;
+  border: 0px;
+  width: 120px;
+  align-self:  center;
+}
+
+.button, html [type="button"], [type="reset"], [type="submit"] {
+  background-color: rgb(245, 244, 247);
+  color: black;
+  border-radius:10px;
+ }

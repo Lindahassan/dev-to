@@ -1,0 +1,8 @@
+
+.maincont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #c9c6c6;
+  
+}

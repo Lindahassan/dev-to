@@ -1,0 +1,79 @@
+
+.logo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px 20px 10px;
+    width: 1024px;
+    height: 56px;
+  
+  }
+  
+  .antbtn {
+    color: rgba(24, 8, 248, 0.85);
+    border: 0px;
+    background: #fff;
+  }
+  .btn1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    
+    background: #fff;
+   
+  }
+  .c-cta {
+    --border-width: 1px;
+    text-decoration: none;
+    border-radius: var(--radius);
+    font: inherit;
+    background-color: var(--bg);
+    color:  white var(--color);
+    outline: 0;
+    text-align: center;
+    display: inline-flex;
+    border-radius: 7px;
+   
+}
+
+  .c-cta:hover, .js-focus-visible .c-cta.focus-visible:focus {
+    background-color: blue ;
+    color: var(--color-hover);
+    z-index: var(--z-elevate);
+    border-color: var(--border-hover);
+    text-decoration: underline;
+}
+.whitespace-nowrap {
+  white-space: nowrap !important;
+}
+.mr-2 {
+  margin-right: var(--su-2) !important;
+}
+.c-cta--branded {
+  --bg: var(--cta-branded-bg);
+  --bg-hover: var(--cta-branded-bg-hover);
+  --color: var(--cta-branded-color);
+  --color-hover: var(--cta-branded-color-hover);
+  --border: var(--cta-branded-border);
+  --border-hover: var(--cta-branded-border-hover);
+  font-weight: var(--fw-medium);
+  
+}
+textarea, input:not([type='hidden']), button {
+  outline: 0;
+}
+.crayons-textfield {
+  line-height: var(--lh-base);
+  padding: calc(0.5em - var(--border-width)) 0.5em;
+  font-family: inherit;
+  font-size: var(--fs-base);
+  width: 100%;
+  resize: vertical;
+}
